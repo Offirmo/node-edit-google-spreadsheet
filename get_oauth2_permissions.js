@@ -25,9 +25,10 @@ var OAuth2Client = new googleAuth().OAuth2;
 // Client ID and client secret are available at
 // https://code.google.com/apis/console
 // 1. Create or pick a project
-// 2. Choose "API & Auth" and then "Credentials"
-// 3. Click "Create new Client ID"
-// 4. Select "Installed application" and "Other"
+// 2. In the top left hamburger menu, choose "API Manager"
+// 2b. In the left menu, choose "Credentials"
+// 3. Click "Create credentials" -> "OAuth Client ID"
+// 4. Select "Application type": "Other" and give a name, ex. "GDocsAccessFromNode01"
 // 5. Copy your ClientID and Client Secret into the fields beneath
 
 var CLIENT_ID = '';
